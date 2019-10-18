@@ -1,0 +1,98 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+  background-color:rgb(204, 235, 245);
+  color: yellow;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+h1{
+    font-size: 50px;
+    line-height: 1;
+    padding: 50px 0;
+    text-align: center;
+  }
+h2{
+    font-size: 32px;
+    line-height: 1.5;
+  }
+  
+nav ul{
+    list-style-type: none;
+  }
+  
+nav li{
+    padding-right: 20px; 
+    display: inline; 
+  }
+  
+nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none; /*Your code here - remove the underline*/;
+  }
+  
+nav a:hover{
+    text-decoration:underline;
+  }
+  
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: relative; /*Your code here - position relative to the parent */;
+    top: -40px;     /*Your code here - place 40px higher */;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+  }
+  a:focus{
+    top: 0px;
+    transition: none;
+  /*Add the selector and rule to move the skip link to the exact top.*/
+  }
+  :focus{
+    border: 2px solid black;
+  /*Add the selector and code to put a 2px black border around all elements in focus.*/
+  }
+  footer{
+    background-color: yellow;
+    color: black;
+    grid-column: 1 / -1;  /*Can you explain what this does?*/
+    grid-row: 7 / auto;   /*Can you rewrite it?*/
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  @media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto; /* Removes scroll animation */
+    }
+    .skip a{
+      background: white;
+      left: 0;
+      padding: 6px;
+      position: absolute;
+      top: -40px;
+      -webkit-transition: default;/* Your code here - set to default setting */
+      transition: default; /* Your code here - set to default setting */
+      z-index: 1;
+    }
+    .skip a:focus{
+      top:0;
+    }
+  }
+  
+input{
+    width: 35%;
+    position: absolute;
+    left: 150px;
+}
+input:focus{
+    background-color: lightblue;
+}
+fieldset{
+    width:50%;
+}
