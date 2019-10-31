@@ -79,6 +79,7 @@ nav a:hover{
     grid-row: 7 / auto;   /*Can you rewrite it?*/
     padding-top: 30px;
     text-align: center;
+    position: absolute;
   }
 
   @media screen and (prefers-reduced-motion: reduce){
