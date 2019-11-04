@@ -7,34 +7,42 @@ body{
   background-color:rgb(204, 235, 245);
   color: black;
   font-size: 25px;
-  margin: auto;
 }
 h1{
     font-size: 40px;
-    line-height: 1;
+    line-height: 1.5;
     text-align: center;
 }
+
 header{
   text-align: center;
 }
 .about-text-block{
     display: grid;
-    grid-template-rows: 400px 400px 400px 400px 400px 400px 400px;
+    grid-template-rows: 300px 300px 500px 500px 500px 500px 500px;
     background-attachment: fixed; /* Parallax effect */
     background-image: url('../images/headshot.jpg'); /* Your code here - Link to header.jpg in the images folder */
     background-position: center;  /* Parallax effect */
     background-repeat: no-repeat; /* Parallax effect */
     background-size: cover;       /* Parallax effect */
     grid-column: 1/-1;
-    grid-row:1/ span 1; 
+    grid-row:1/span 1; 
   }
 h2{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 1.5;
+    padding: 0;
+    grid-column: 1/2;
   }
+.home{
+  line-height: 1.5;
+  font-size: 25px;
+  grid-column: 1/2;
+}
 h3{
   text-decoration: underline;
+  line-height: 1.5;
 }
 .nav{
   display: flex;
@@ -42,25 +50,28 @@ h3{
   align-items: center;
   flex: 1;
 }  
-nav a.active{
-  font-weight: bold;
-  text-decoration: rebeccapurple;
+.nav a.active{
+  font-weight: italic;
+  color: rebeccapurple;
 }
-nav ul{
+.nav ul{
     list-style-type: none;
   }
   
-nav li{
+.nav li{
     padding-right: 20px; 
-    display: inline; }
+    display: inline; 
+  }
 .nav a{
     color: black;
     font-weight: bold;
-    text-decoration: none; /*Your code here - remove the underline*/;
+    text-decoration: none;
   }
   
-nav a:hover{
-    text-decoration:underline; }
+.nav a:hover{
+    text-decoration:underline;
+    background-color:yellow; 
+  }
   
 .skip a{
     background: white;
@@ -102,6 +113,10 @@ nav a:hover{
     animation-iteration-count: infinite;
     animation-direction: normal;
     text-align: left;
+    text-decoration: none;
+  }
+  .form-group{
+    align-content: center;
   }
   
   @keyframes angry-animation {
