@@ -1,6 +1,32 @@
 html{
     scroll-behavior: smooth;
 }
+.about-text-block{
+  display: grid;
+  grid-template-rows: 300px 300px 400px 400px 300px 300px 300px;
+  font-size: 40px;
+  color:white;
+}
+.about{
+background-attachment: fixed;
+background-image: url('../images/block-m-feed.jpg'); 
+background-position: center;  
+background-repeat: no-repeat; 
+background-size: cover;   
+text-align: center;
+font-size: 50px;
+line-height: 1.5;
+padding: 0;
+grid-row: 2/6;
+grid-column: 1/-1;
+}
+
+.home{
+  text-align: center;
+font-size: 100%;
+grid-column: 1/-1;
+grid-row:3/7;  
+}
 body{
   display: grid;
   text-align: center;
@@ -17,29 +43,8 @@ h1{
 header{
   text-align: center;
 }
-.about-text-block{
-    display: grid;
-    grid-template-rows: 300px 300px 500px 500px 500px 500px 500px;
-    background-attachment: fixed; /* Parallax effect */
-    background-image: url('../images/headshot.jpg'); /* Your code here - Link to header.jpg in the images folder */
-    background-position: center;  /* Parallax effect */
-    background-repeat: no-repeat; /* Parallax effect */
-    background-size: cover;       /* Parallax effect */
-    grid-column: 1/-1;
-    grid-row:1/span 1; 
-  }
-h2{
-    text-align: center;
-    font-size: 35px;
-    line-height: 1.5;
-    padding: 0;
-    grid-column: 1/2;
-  }
-.home{
-  line-height: 1.5;
-  font-size: 25px;
-  grid-column: 1/2;
-}
+
+
 h3{
   text-decoration: underline;
   line-height: 1.5;
@@ -92,11 +97,18 @@ h3{
     border: 2px solid black;
   /*Add the selector and code to put a 2px black border around all elements in focus.*/
   }
+  .education-text-block{
+    display: grid;
+    grid-template-rows: 300px 300px 400px 400px 300px 300px 300px;
+    font-size: 40px;
+    color:white;
+  }
   div.gallery {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
+    width: 100%;
   }
   footer{
     background-color: yellow;
@@ -118,6 +130,25 @@ h3{
   .form-group{
     align-content: center;
   }
+  .header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+    padding-left:2%;
+}
+form div{
+    display:inline-block;
+    width: 90%;
+}
+button.btn{             /*Why couldn't I just use button?*/
+    display: block;
+    margin: 0 auto;
+}
   
   @keyframes angry-animation {
 
