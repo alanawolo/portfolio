@@ -10,6 +10,7 @@ html{
 .about{
 background-attachment: fixed;
 background-image: url('../images/block-m-feed.jpg'); 
+background-color: black;
 background-position: center;  
 background-repeat: no-repeat; 
 background-size: cover;   
