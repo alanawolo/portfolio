@@ -24,7 +24,6 @@ grid-column: 1/-1;
 
 .home{
 color: gray;
- text-align: center;
 font-size: 100%;
 grid-column: 1/-1;
 grid-row:3/7;  
@@ -54,8 +53,8 @@ h3{
 .nav{
   display: flex;
   min-height: 56px;
+  justify-content: space-between;
   align-items: center;
-  flex: 1;
 }  
 .nav a.active{
   font-weight: italic;
@@ -269,11 +268,19 @@ input:focus{
     max-width: 50%;
   }
 }
+.nav{
+  display: block;
+        width: auto;
+}
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
     max-width: 100%;
+  }
+  .nav{
+    justify-content: center;
+    flex: 1;
   }
 }
