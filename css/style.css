@@ -59,7 +59,7 @@ h3.retroshadow {
 
 .nav{
   display: flex;
-  min-height: 56px;
+  min-height: 40px;
   justify-content: space-between;
   align-items: center;
 }  
@@ -276,6 +276,7 @@ input:focus{
 }
 .nav{
   display: block;
+  min-height: 56px;
   width: auto;
 }
 .about-text-block{
