@@ -212,13 +212,17 @@ input:focus{
   padding: 0 4px;
 }
 /* Create four equal columns that sits next to each other */
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 5vw);
-  grid-gap: 15px;
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
 }
 
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
 
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -292,11 +296,16 @@ grid-column: 1/-1;
   color: white;
   transform: rotateY(180deg);
 }
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 5vw);
-  grid-gap: 15px;
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
 }
@@ -370,11 +379,16 @@ grid-column: 1/-1;
     color: white;
     transform: rotateY(180deg);
   }
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 15px;
-}
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
 
 }
