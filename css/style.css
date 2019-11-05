@@ -69,7 +69,7 @@ h3.retroshadow {
   
 .nav li{
     padding-right: 20px; 
-    display: inline; 
+    display: block; 
   }
 .nav a{
     color: black;
@@ -203,7 +203,6 @@ input:focus{
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
-  max-width: 25%;
   padding: 0 4px;
 }
 .column img {
@@ -257,7 +256,7 @@ input:focus{
   .column {
     flex: 1;
     max-width: 50%;
-  }
+
 }
 .nav{
   padding-top: 35px;
@@ -266,6 +265,11 @@ input:focus{
   vertical-align: middle;
   text-align: right;
 }
+.nav li{
+  padding-right: 20px; 
+  display: inline; 
+}
+  }
 .about-text-block{
   display: grid;
   grid-template-rows: 300px 300px 400px 400px 300px 300px 300px;
@@ -287,14 +291,18 @@ grid-row: 2/6;
 grid-column: 1/-1;
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px) {
   .column {
-    flex: 100%;
+    flex: 25%;
     max-width: 100%;
   }
   .nav{
     justify-content: center;
     flex: 1;
+  }
+  .nav li{
+    padding-right: 20px; 
+    display: inline; 
   }
   .about-text-block{
     display: grid;
