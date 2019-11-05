@@ -3,8 +3,8 @@ html{
 }
 .about-text-block{
   display: grid;
-  grid-template-rows: 300px 300px 400px 400px 300px 300px 300px;
-  font-size: 40px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
+  font-size: 30px;
   color:white;
 }
 .about{
@@ -15,7 +15,7 @@ background-position: center;
 background-repeat: no-repeat; 
 background-size: cover;   
 text-align: center;
-font-size: 50px;
+font-size: 20px;
 line-height: 1.5;
 padding: 0;
 grid-row: 2/6;
@@ -80,7 +80,6 @@ h3.retroshadow {
     font-weight: bold;
     text-decoration: none;
   }
-  
 .nav a:hover{
     text-decoration:underline;
     background-color:purple; 
@@ -279,6 +278,26 @@ input:focus{
   display: block;
   width: auto;
 }
+.about-text-block{
+  display: grid;
+  grid-template-rows: 300px 300px 400px 400px 300px 300px 300px;
+  font-size: 40px;
+  color:white;
+}
+.about{
+background-attachment: fixed;
+background-image: url('../images/block-m-feed.jpg'); 
+background-color: black;
+background-position: center;  
+background-repeat: no-repeat; 
+background-size: cover;   
+text-align: center;
+font-size: 50px;
+line-height: 1.5;
+padding: 0;
+grid-row: 2/6;
+grid-column: 1/-1;
+}
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -289,5 +308,25 @@ input:focus{
   .nav{
     justify-content: center;
     flex: 1;
+  }
+  .about-text-block{
+    display: grid;
+    grid-template-rows: 300px 300px 400px 400px 300px 300px 300px;
+    font-size: 40px;
+    color:white;
+  }
+  .about{
+  background-attachment: fixed;
+  background-image: url('../images/block-m-feed.jpg'); 
+  background-color: black;
+  background-position: center;  
+  background-repeat: no-repeat; 
+  background-size: cover;   
+  text-align: center;
+  font-size: 50px;
+  line-height: 1.5;
+  padding: 0;
+  grid-row: 2/6;
+  grid-column: 1/-1;
   }
 }
