@@ -23,7 +23,8 @@ grid-column: 1/-1;
 }
 
 .home{
-  text-align: center;
+color: gray;
+ text-align: center;
 font-size: 100%;
 grid-column: 1/-1;
 grid-row:3/7;  
