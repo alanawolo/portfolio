@@ -25,28 +25,6 @@
     <meta charset="UTF-8">
     <title>Contact</title>
 
-    <style>
-        .header {
-            color: #36A0FF;
-            font-size: 27px;
-            padding: 10px;
-        }
-
-        .bigicon {
-            font-size: 35px;
-            color: #36A0FF;
-            padding-left:2%;
-        }
-        form div{
-            display:inline-block;
-            width: 90%;
-        }
-        button.btn{             /*Why couldn't I just use button?*/
-            display: block;
-            margin: 0 auto;
-        }
-
-</style>
 </head>
 <body>
 </div>
@@ -55,6 +33,7 @@
         <p>201-245-8301 | awoloshi@umich.edu </p>
 </header>
 <main>
+<p> Feel free to reach out with any inquiries! </p> 
 <div class="container">
 <div class="contact">
     <img src="images/contact.png" alt="contact image"/>
@@ -64,20 +43,20 @@
         <div class="form-group">
             <span><i class="fa fa-user bigicon"></i></span>
             <div>
-                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control" label = "first-name">
             </div>
         </div>
         <div class="form-group">
             <span><i class="fa fa-user bigicon"></i></span>
             <div>
-                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control" label = "last-name">
             </div>
         </div>
         <div class="form-group">
             <span><i class="fa fa-paper-plane bigicon"></i></span>
             <div>
                 <input id="email" name="email" type="text" 
-                placeholder="Email Address" class="form-control">
+                placeholder="Email Address" class="form-control" label = "email">
             </div>
         </div>
 
@@ -85,13 +64,13 @@
             <span><i class="fa fa-phone-square bigicon"></i></span>
             <div>
                 <input id="phone" name="phone" type="text" placeholder="Phone"
-                 class="form-control">
+                 class="form-control" label = "phone">
             </div>
         </div>
         
         <div class="form-group">
             <div>
-                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                <button type="submit" class="btn btn-primary btn-lg" label = "submit">Submit</button>
             </div>
         </div>
     </fieldset>

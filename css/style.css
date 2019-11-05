@@ -195,7 +195,7 @@ input{
 input:focus{
     background-color: lightblue;
 }
-fieldset{
+.form-horizontal{
     align-content: center;
     width:80%;
     padding: 3%;
