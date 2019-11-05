@@ -47,9 +47,16 @@ header{
 
 
 h3{
-  text-decoration: underline;
   line-height: 1.5;
 }
+h3.retroshadow {
+    color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+
 .nav{
   display: flex;
   min-height: 56px;
@@ -270,7 +277,7 @@ input:focus{
 }
 .nav{
   display: block;
-        width: auto;
+  width: auto;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
