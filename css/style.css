@@ -2,8 +2,7 @@ html{
   scroll-behavior: smooth;}
 .about-text-block{
   display: grid;
-  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
-  grid-template-rows: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
   font-size: 30px;
   color:white;
 }
@@ -26,8 +25,7 @@ html{
 .home{
 color: gray;
 font-size: 100%;
-grid-column: 1/-1;
-grid-row:3/7;  
+grid-column: 1/-1; 
 grid-row:3/4;  
 }
 body{
@@ -63,7 +61,7 @@ h3.retroshadow {
 }  
 .nav a.active{
   font-weight: italic;
-  color:yellow;
+  color:gray;
 }
 .nav ul{
     list-style-type: none;
@@ -125,13 +123,14 @@ h3.retroshadow {
   .at-item {
     color: #3079ed;
     animation-name: angry-animation;
-    animation-duration: 1s;
+    animation-duration: .5s;
     animation-timing-function: ease;
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-direction: normal;
     text-align: left;
     text-decoration: none;
+    padding-top: 10px;
   }
   .form-group{
     align-content: center;
@@ -157,16 +156,12 @@ button.btn{             /*Why couldn't I just use button?*/
   
   @keyframes angry-animation {
     40%{
-      -webkit-transform: translateY(-30px);
-      transform: translateY(-30px);
-    }
-    50%{
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
     }
     60%{
-      -webkit-transform: translateY(-15px);
-      transform: translateY(-15px);
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
     }
   }
   @media screen and (prefers-reduced-motion: reduce){
@@ -236,6 +231,9 @@ input:focus{
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
+.flip-card:focus{
+  background-color: lightblue;
+}
 /* Position the front and back side */
 .flip-card-front, .flip-card-back {
   position: absolute;
@@ -255,15 +253,18 @@ input:focus{
   transform: rotateY(180deg);
 }
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 1000px) {
   .column {
-    flex: 50%;
+    flex: 1;
     max-width: 50%;
   }
 }
 .nav{
-  display: block;
-  width: auto;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: inline-block; /*unrure if this is rigt aligned */
+  vertical-align: middle;
+  text-align: right;
 }
 .about-text-block{
   display: grid;
@@ -286,7 +287,7 @@ grid-row: 2/6;
 grid-column: 1/-1;
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .column {
     flex: 100%;
     max-width: 100%;
