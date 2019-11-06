@@ -234,6 +234,7 @@ input:focus{
 }
 .flip-card:focus{
   background-color: lightblue;
+  top: 0px;
 }
 /* Position the front and back side */
 .flip-card-front, .flip-card-back {
