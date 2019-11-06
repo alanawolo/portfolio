@@ -114,6 +114,7 @@ h3.retroshadow {
   footer{
     background-color: yellow;
     color: black;
+    line-height: 1;
     grid-row: 6/span 1;
     text-align: center;
   }
@@ -146,9 +147,12 @@ form div{
     display:inline-block;
     width: 90%;
 }
-button.btn{             /*Why couldn't I just use button?*/
+button.btn{         
     display: block;
     margin: 0 auto;
+}
+.imgcont{
+  filter: grayscale(1);
 }
   
   @keyframes angry-animation {
@@ -211,6 +215,7 @@ input:focus{
   background-color: transparent;
   width: 300px;
   height: 200px;
+  line-height: 1;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -289,6 +294,9 @@ grid-column: 1/-1;
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (min-width: 800px) {
+  body{
+    line-height: 3;
+  }
   .column {
     flex: 25%;
     max-width: 100%;
@@ -320,5 +328,8 @@ grid-column: 1/-1;
   padding: 0;
   grid-row: 2/6;
   grid-column: 1/-1;
+  }
+  .imgcont{
+    filter: grayscale(0);
   }
 }
