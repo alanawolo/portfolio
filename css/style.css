@@ -21,7 +21,7 @@ html{
 
 .home{
 color: gray;
-font-size: 100%;
+font-size: 20px;
 grid-column: 1/-1; 
 grid-row:3/4;  
 }
@@ -273,7 +273,7 @@ input:focus{
 
 .about-text-block{
   display: grid;
-  grid-template-rows: 300px 300px 400px 400px 300px 300px 300px;
+  grid-template-rows: 300px 200px 200px 200px 200px 200px 300px;
   font-size: 30px;
   color:white;
 }
