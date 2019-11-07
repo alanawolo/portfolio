@@ -278,12 +278,11 @@ input:focus{
   display: grid;
   grid-template-rows: 300px 200px 200px 200px 200px 200px 300px;
   font-size: 30px;
-  color:white;
+  color:black;
 }
 .about{
-background-attachment: fixed;
-background-image: url('../images/block-m-feed.jpg'); 
-background-color: black;
+  background-image: url('../images/michigan.jpg'); 
+  background-color: lightskyblue;
 background-position: center;  
 background-repeat: no-repeat; 
 background-size: cover;   
@@ -316,12 +315,12 @@ grid-column: 1/-1;
     display: grid;
     grid-template-rows: 300px 300px 400px 400px 300px 300px 300px;
     font-size: 40px;
-    color:white;
+    color:black;
   }
   .about{
   background-attachment: fixed;
-  background-image: url('../images/block-m-feed.jpg'); 
-  background-color: black;
+  background-image: url('../images/michigan.jpg'); 
+  background-color: lightskyblue;
   background-position: center;  
   background-repeat: no-repeat; 
   background-size: cover;   
