@@ -4,11 +4,15 @@ html{
   display: grid;
   grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
   font-size: 30px;
-  color:whitesmoke;
-}
+  color:darkgray;
+}.home{
+  color: darkgray;
+  font-size: 20px;
+  grid-column: 1/-1; 
+  grid-row:3/4;  
+  }
 .about{
-  background-image: url('../images/block-m-feed.jpg'); 
-  filter: grayscale(.5);
+  background-image: url('../images/michigan.jpg'); 
   background-color: black;
   background-position: center;  
   background-size: cover;   
@@ -20,12 +24,7 @@ html{
   grid-column: 1/-1;
   }
 
-.home{
-color: whitesmoke;
-font-size: 20px;
-grid-column: 1/-1; 
-grid-row:3/4;  
-}
+
 body{
   display: grid;
   text-align: center;
