@@ -28,7 +28,7 @@ grid-row:3/4;
 body{
   display: grid;
   text-align: center;
-  background-color:rgb(204, 235, 245);
+  background-color:cornflowerblue;
   color: black;
   font-size: 25px;
 }
