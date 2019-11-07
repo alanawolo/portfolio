@@ -8,6 +8,7 @@ html{
 }
 .about{
   background-image: url('../images/block-m-feed.jpg'); 
+  filter: grayscale(.5);
   background-color: black;
   background-position: center;  
   background-size: cover;   
@@ -20,7 +21,7 @@ html{
   }
 
 .home{
-color: gray;
+color: whitesmoke;
 font-size: 20px;
 grid-column: 1/-1; 
 grid-row:3/4;  
