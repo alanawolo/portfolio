@@ -119,7 +119,7 @@ ul{
     text-align: center;
   }
   .at-item {
-    color: #3079ed;
+    color: black;
     animation-name: angry-animation;
     animation-duration: .5s;
     animation-timing-function: ease;
