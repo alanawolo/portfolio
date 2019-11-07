@@ -232,7 +232,8 @@ input:focus{
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
-.flip-card:focus{
+.flip-card:focus .flip-card-inner {
+  transform: rotateY(180deg);
   background-color: lightblue;
   top: 0px;
 }
