@@ -58,7 +58,7 @@ h3.retroshadow {
 }  
 .nav a.active{
   font-weight: italic;
-  color:gray;
+  color:purple;
 }
 ul{
     list-style-type: none;
