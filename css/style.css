@@ -83,7 +83,7 @@ ul{
     left: 0;
     padding: 6px;
     position: relative; /*Your code here - position relative to the parent */;
-    top: -40px;     /*Your code here - place 40px higher */;
+    top: -70px;     /*Your code here - place 40px higher */;
     -webkit-transition: top 1s ease-out;
     transition: top 1s ease-out;
     z-index: 1;
