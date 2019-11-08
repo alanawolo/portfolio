@@ -135,6 +135,7 @@ ul{
     font-size: 50%;
   }
   form div{
+    padding: 10px;
     display:flex;
     width: 70%;
 }
@@ -270,7 +271,7 @@ input:focus{
 .nav{
   padding-top: 35px;
   padding-bottom: 35px;
-  display: inline-block; /*unrure if this is rigt aligned */
+  display: inline-block;
   vertical-align: middle;
   text-align: right;
 }
