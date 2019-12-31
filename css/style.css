@@ -32,7 +32,7 @@ top: 0;
 }
 
 .topnav a:hover {
-background-color: #ddd;
+background-color:lightblue;
 color: black;
 }
 
@@ -83,10 +83,10 @@ footer {
   bottom: 0;
 }
 b {
-  color: #E85A4F;
+  color:yellow;
 }
 a {
-  color: #803333;
+  color: lightblue;
   text-decoration:none;
 }
 h1 {
@@ -121,7 +121,7 @@ nav li{
   color: #FFFFFF;
   /* width: 15%; */
   text-align: center;
-  display; none;
+  display: none;
 }
 nav a{
   color: white;
@@ -252,8 +252,6 @@ p{
 }
 
 
-
-
 .resume-container {
       display:grid;
       grid-template-columns: .5fr 3fr .5fr;
@@ -376,7 +374,7 @@ width: 95%;
 text-align: center;
 color: #ffffff;
 font-style: normal;
-background-color: #803333;
+background-color: lightblue;
 text-decoration: none;
 margin-bottom: 10px;
 margin-top: 50px;
@@ -394,7 +392,7 @@ color: #ffffff;
 @media screen and (min-width: 700px){
 .topnav {
 overflow: hidden;
-background-color: #2f2f2f;
+background-color: lightblue;
 position: relative;
 }
 p{
@@ -423,7 +421,7 @@ top: 0;
 }
 
 .topnav a:hover {
-background-color: #ddd;
+background-color: lightblue;
 color: black;
   display: none;
 }
@@ -548,7 +546,7 @@ color: white;
   
   .content-container {
       display: grid;
-      grid-template columns: 100px 100px;
+      grid-template-columns: 100px 100px;
       grid-template-rows: 1fr 1fr 1fr;
       width: 60vw;
       
@@ -662,7 +660,7 @@ width: 95%;
 text-align: center;
 color: #ffffff;
 font-style: normal;
-background-color: #803333;
+background-color: lightblue;
 text-decoration: none;
 margin-bottom: 10px;
 margin-top: 50px;
@@ -673,7 +671,6 @@ a.navi:hover {
 background-color: #2f2f2f;
 color: #ffffff;
   transition: background-color 0.4s ease-in-out;
-}
 }
 
 @media screen and (prefers-reduced-motion: reduce){
@@ -694,5 +691,6 @@ html{
 
 .skip a:focus{
     top:0;
+}
 }
 }
