@@ -621,6 +621,9 @@ color: white;
       grid-row: 4;
       grid-column: 1 / span 4;
   }
+  .nav{
+    background-color: black;
+  }
 
   .nav-container{
       display: grid;
