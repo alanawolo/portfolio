@@ -256,6 +256,7 @@ p{
   grid-template-rows: .8fr .4fr .05fr;
   grid-column-gap: 15px;
   width: 100vw;
+  line-height: 2;
 }
 .title{
   grid-column: 1/2;
