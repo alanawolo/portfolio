@@ -270,6 +270,7 @@ p{
   grid-column-gap: 15px;
   width: 100vw;
   line-height: 2;
+  padding-left: 15px;
 }
 .experience text-block{
   display: grid;
@@ -282,6 +283,7 @@ p{
 }
 .title{
   grid-column: 1/2;
+  padding-left: 18px;
 }
 .info{
   grid-column: 2/-1;
