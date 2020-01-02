@@ -3,6 +3,7 @@ html {
 }
 .logo {
   width: 300px;
+  align-content: center;
 }
 .message {
   min-height: 300px;
@@ -311,7 +312,7 @@ color: #ffffff;
 @media screen and (min-width: 700px){
 .topnav {
 overflow: hidden;
-background-color: lightblue;
+background-color:black;
 position: relative;
 }
 p{
