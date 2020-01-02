@@ -39,7 +39,16 @@ top: 0;
 background-color:lightblue;
 color: black;
 }
-
+.fa{
+display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+font-size: inherit;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased; 
+}
+bars:before {
+  content: "\f0c9";
+}
 .active {
 background-color: #2f2f2f;
 color: white;
