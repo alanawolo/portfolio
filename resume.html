@@ -20,6 +20,21 @@
   <header class="all-header">
     <a href="index.html"><img src="images/Logo.png" class="logo" alt="logo"></a>
 </header>
+         
+<div class="all-nav">
+   
+  <nav><div class="topnav"><br>
+      <div class="active"></div>
+<div id="myLinks">
+<a href="index.html">Home</a>
+              <a href="education.html">Education</a>
+              <a href="experiences.html">Experiences</a>
+              <a href="resume.html"  class="current">Resume</a>
+</div>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+<i class="fa fa-bars" aria-label="open"></i>
+</a>
+</div></nav>
   <div class="nav">
     <nav>
       <ul>
@@ -30,7 +45,7 @@
       </ul>
     </nav>
   </div>
-
+</div>
 <div class="container">
   <div class="resume" id="main">
       <h2>RESUME</h2>
@@ -64,5 +79,15 @@
         <p>Alana Woloshin <br/>
           201-245-8301 | alanawoloshin@gmail.com</p>
   </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
 </body>
 </html>
