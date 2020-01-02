@@ -26,47 +26,40 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="education.html">Education</a></li>
         <li><a href="experiences.html">Experiences</a></li>
-        <li><a class = "current"  href="contact.html">Contact</a></li>
+        <li><a class = "current"  href="resume.html">Contact</a></li>
       </ul>
     </nav>
   </div>
 
 <p> Feel free to reach out with any inquiries! </p> 
+<div class="container">
+  <div class="resume" id="main">
+      <h2>RÉSUMÉ</h2>
+      <p>I have attached my résumé <a href="images/resume.pdf" target="_blank">here</a> for reference.</p>
+      <p>Please contact me with any questions!</p>
+   
+          <form action="https://formspree.io/mknnnqpr" method="POST">
+              <label>
+                  <p>Your name:</p>
+                  <p><input type='text' name='_yourname'></p>
+              </label>
+              
+              <label>
+                  <p>Your email:</p>
+                  <p><input type="text" name="_replyto"></p>
+              </label>
+                
+              <label>
+                  <p>Your message:</p>
+                  <p><input class="message" name="message"></input></p>
+              </label>
+              
+              <p><button type="submit">Send</button></p>
+          </form>
+              
+      </div>
+</div> 
 
-<form
-  action="https://formspree.io/mknnnqpr"
-  method="POST">
-    <fieldset>
-        <div class="form-group">
-            <span><i class="fa fa-user bigicon"></i></span>
-            <label>
-                Your first name:
-                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
-            </label>
-        </div>
-        <div class="form-group">
-            <span><i class="fa fa-user bigicon"></i></span>
-            <label>
-                    Your last name:
-                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
-            </label>
-        </div>
-        <div class="form-group">
-            <span><i class="fa fa-paper-plane bigicon"></i></span>
-            <label>
-                Your email:
-                <input id="email" name="email" type="text" 
-                placeholder="Email Address" class="form-control">
-            </label>
-        </div>
-        
-        <div class="form-group">
-            <label>
-                <button type="submit" class="btn btn-primary btn-lg" >Submit</button>
-            </label>
-        </div>
-    </fieldset>
-</form>
 
 <footer>
         <p>University of Michigan School of Information <br/>
