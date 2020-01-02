@@ -4,7 +4,10 @@ html {
 .logo {
   width: 300px;
 }
-
+.message {
+  min-height: 300px;
+  min-width: 300px;
+}
 .topnav {
 overflow: hidden;
 background-color:black;
