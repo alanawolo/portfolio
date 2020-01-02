@@ -14,19 +14,16 @@ overflow: hidden;
 background-color:#2f2f2f;
 position: relative;
 }
-
 .topnav #myLinks {
 display: none;
 }
-
 .topnav a {
-color: black;
+color: white;
 padding: 14px 16px;
 text-decoration: none;
 font-size: 17px;
 display: block;
 }
-
 .topnav a.icon {
 background: black;
 display: block;
@@ -329,6 +326,7 @@ color: #ffffff;
 overflow: hidden;
 background-color: #2f2f2f;
 position: relative;
+display: none;
 }
 p{
   font-size: 18px;
