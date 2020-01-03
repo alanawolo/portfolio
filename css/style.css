@@ -320,6 +320,7 @@ color: #ffffff;
 }
 h3{
   text-align: center;
+  padding: 3px;
 }
 @media screen and (min-width: 700px){
 .topnav {
