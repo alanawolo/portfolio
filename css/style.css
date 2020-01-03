@@ -318,9 +318,9 @@ background-color: #2f2f2f;
 color: #ffffff;
   transition: background-color 0.4s ease-in-out;
 }
-
-/* MEDIA QUERY 1 */
-
+h3{
+  text-align: center;
+}
 @media screen and (min-width: 700px){
 .topnav {
 overflow: hidden;
