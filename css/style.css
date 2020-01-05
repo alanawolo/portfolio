@@ -270,7 +270,6 @@ p{
   padding-left: 15px;
 }
 .experience-text-block{
-  display: grid;
   grid-template-columns: .09fr 1fr .09fr;
   grid-row-gap: 15px;
   grid-template-rows: .8fr .4fr .05fr;
